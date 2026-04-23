@@ -199,3 +199,6 @@ Attribute	Description (คำอธิบาย)	Data Type	Valid Range / Example
 
 **NFT** | Data Analytics Project | SWU
 *Modified from Bill Schmarzo's Machine Learning Canvas and Jasmine Vasandani's Data Science Workflow Canvas*
+
+## Prompt for Generate Data
+1.รับบทเป็นนักวิเคราะห์ข้อมูล ช่วยเจนdata สำหรับการทำdata Analytics โดยทำการซ่อน insight และ Patterns ของข้อมูลไว้ด้วย ภายใน Dataset ต้องมีข้อมูลที่มี insights and patterns ต้องสอดคล้องกับ objective  โดย Data Quality rules ไม่ต้องมาทำขั้นตอน data cleaning อีกเลย
