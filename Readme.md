@@ -41,7 +41,7 @@
 2. OTA vs Direct → ต่างกันกี่ % ใน Net Margin?
 3. Cancellation ส่งผลต่อ Net Revenue จริง มากแค่ไหน?
 4. มีความสัมพันธ์ระหว่าง Commission สูง ↔ Net ADR ต่ำ จริงหรือไม่?
-5. ถ้าตัด OTA ออก → รายได้หายไปเท่าไร vs Margin ดีขึ้นเท่าไร?
+5. Cancellation ส่งผลต่อ average net margin ต่อ booking ที่ “สำเร็จจริง” แค่ไหนCancellation ส่งผลต่อ average net margin ต่อ booking ที่ “สำเร็จจริง” แค่ไหน
 6. ถ้าตัด OTA ออก → รายได้หายไปเท่าไร vs margin ดีขึ้นเท่าไร?
 
 ---
