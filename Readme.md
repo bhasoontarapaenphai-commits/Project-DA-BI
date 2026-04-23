@@ -1,11 +1,11 @@
-# 🏨 The Azure Stay — Channel Profitability Analysis
+#  The Azure Stay — Channel Profitability Analysis
 
 > **Data Analytics Project | Problem 2: High Distribution Costs**
 > Designed by: NFT | Date: 17/01/2569
 
 ---
 
-## 📌 Background & Problem Statement
+##  Background & Problem Statement
 
 **The Azure Stay** คือโรงแรมขนาดกลางแบบ Independent (ไม่สังกัดเชน) ที่มีทำเลดีและคุณภาพบริการสูง แม้จะมีอัตราการเข้าพัก (Occupancy) ที่น่าพอใจ แต่กำไรกลับอยู่ในภาวะชะงักงัน (Profit Stagnation)
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 🎯 SMART Objectives
+##  SMART Objectives
 
 ลดต้นทุนจากค่าคอมมิชชั่นและเพิ่มรายได้สุทธิ (Net Revenue) **อย่างน้อย 12% ภายใน 6 เดือน** โดยปรับสัดส่วนช่องทางการจอง
 
@@ -25,11 +25,11 @@
 | **R**elevant | สอดคล้องกับเป้าหมาย "Maximize Net Revenue" |
 | **T**ime-bound | ภายใน 6 เดือน |
 
-> 💡 **Value Proposition:** เพิ่มกำไรโดยไม่จำเป็นต้องเพิ่มจำนวนห้องที่ขาย
+>  **Value Proposition:** เพิ่มกำไรโดยไม่จำเป็นต้องเพิ่มจำนวนห้องที่ขาย
 
 ---
 
-## ❓ Research Questions & Hypotheses
+##  Research Questions & Hypotheses
 
 ### Hypotheses
 1. **Direct channels** มี Net ADR และ Net Margin สูงกว่า OTA channels อย่างมีนัยสำคัญ
@@ -84,7 +84,7 @@
 
 ---
 
-## 📐 Key Metrics (KPIs)
+##  Key Metrics (KPIs)
 
 ```
 Net ADR       = (Gross Room Revenue - Commission) / จำนวนห้องที่ขายได้
@@ -95,7 +95,7 @@ Net Margin %  = Net Room Revenue / Gross Room Revenue × 100
 
 ---
 
-## 🔍 Preliminary Findings (from Excel Analysis)
+##  Preliminary Findings (from Excel Analysis)
 
 ### Net Margin by Channel Type
 
@@ -107,8 +107,8 @@ Net Margin %  = Net Room Revenue / Gross Room Revenue × 100
 | OTA | 90.6% | ฿7,454 |
 | GDS | **80.0%** | ฿6,607 |
 
-> ✅ Direct channels มี Net Margin สูงสุด (100%) สอดคล้องกับ Hypothesis ที่ตั้งไว้
-> ⚠️ GDS (Amadeus) มี Net Margin ต่ำสุดที่ 80% จาก Commission 20%
+>  Direct channels มี Net Margin สูงสุด (100%) สอดคล้องกับ Hypothesis ที่ตั้งไว้
+>  GDS (Amadeus) มี Net Margin ต่ำสุดที่ 80% จาก Commission 20%
 
 ### Cancellation Impact (Checked-Out bookings only)
 
@@ -121,27 +121,27 @@ Net Margin %  = Net Room Revenue / Gross Room Revenue × 100
 
 ---
 
-## 🗂️ Repository Structure
+##  Repository Structure
 
 ```
-📦 azure-stay-channel-profitability/
-├── 📄 README.md
-├── 📊 data/
+ azure-stay-channel-profitability/
+├──  README.md
+├──  data/
 │   └── hotel_channel_profitability_v2.xlsx    # Raw dataset
-├── 📓 notebooks/
+├──  notebooks/
 │   ├── 01_data_exploration.ipynb              # EDA & Data Cleaning
 │   ├── 02_channel_net_margin_analysis.ipynb   # H1: Net ADR & Net Margin
 │   ├── 03_ota_cancellation_analysis.ipynb     # H2: Cancellation Rate
 │   └── 04_commission_impact_analysis.ipynb    # H3: Commission vs Net Revenue
-├── 📈 dashboard/
+├──  dashboard/
 │   └── channel_profitability_dashboard.*      # Visualization output
-└── 📋 docs/
+└──  docs/
     └── Project_Canvas.pptx                    # Project Canvas
 ```
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Python** — pandas, matplotlib, seaborn
 - **Excel / Power Pivot** — Exploratory analysis & Pivot Tables
@@ -150,7 +150,7 @@ Net Margin %  = Net Room Revenue / Gross Room Revenue × 100
 
 ---
 ---
-## 📖 Data Dictionary
+## Data Dictionary
 คำอธิบาย Attribute ทั้งหมดของ Dataset — Hotel Channel Profitability
 from IPython.display import display, HTML
 
@@ -159,8 +159,8 @@ from IPython.display import display, HTML
 # สไตล์ตาม Dark Theme เหมือนตัวอย่าง
 # ============================================================
 
-📖 Data Dictionary   Hotel Channel Profitability
-📁 fact_bookings — ตารางข้อมูลการจองหลัก (5,000 rows)
+Data Dictionary   Hotel Channel Profitability
+fact_bookings — ตารางข้อมูลการจองหลัก (5,000 rows)
 Attribute	Description (คำอธิบาย)	Data Type	Valid Range / Example
 | Attribute          | Description (คำอธิบาย)                       | Data Type          | Valid Range / Example                                       |
 | ------------------ | -------------------------------------------- | ------------------ | ----------------------------------------------------------- |
@@ -180,7 +180,7 @@ Attribute	Description (คำอธิบาย)	Data Type	Valid Range / Example
 | Checked-Out Flag   | Flag = 1 หาก Check-out สำเร็จ                | Binary             | 0 / 1                                                       |
 | Net_revenue        | รายได้สุทธิจริง (0 ถ้ายกเลิก)                | Ratio (Continuous) | 0 หรือ = net_room_revenue                                   |
 | Gross Revenue      | รายได้รวมจริง (0 ถ้ายกเลิก)                  | Ratio (Continuous) | 0 หรือ = gross_room_revenue                                 |
-📁 dim_channels — ตารางข้อมูลช่องทาง (8 rows)
+dim_channels — ตารางข้อมูลช่องทาง (8 rows)
 | Attribute               | Description (คำอธิบาย)    | Data Type          | Valid Range / Example                |
 | ----------------------- | ------------------------- | ------------------ | ------------------------------------ |
 | channel_id              | รหัสช่องทาง (Primary Key) | Nominal            | CH_01 ถึง CH_08                      |
@@ -189,17 +189,12 @@ Attribute	Description (คำอธิบาย)	Data Type	Valid Range / Example
 | commission_model        | รูปแบบ Commission         | Nominal            | Percentage, Flat Fee                 |
 | default_commission_rate | อัตรา Commission มาตรฐาน  | Ratio (Continuous) | 0.00 ถึง 0.20                        |
 | contract_owner          | ผู้ดูแลช่องทาง            | Nominal            | Somchai P., Nattaya K.               |
-📁 dim_rate_codes — ตารางรหัสประเภทราคา (7 rows)
+dim_rate_codes — ตารางรหัสประเภทราคา (7 rows)
 | Attribute         | Description (คำอธิบาย)       | Data Type | Valid Range / Example               |
 | ----------------- | ---------------------------- | --------- | ----------------------------------- |
 | rate_code_id      | รหัสประเภทราคา (Primary Key) | Nominal   | RT_BAR, RT_CORP, RT_NET             |
 | rate_name         | ชื่อประเภทราคา               | Nominal   | Best Available Rate, Corporate Rate |
 | is_commissionable | คิด Commission หรือไม่       | Boolean   | True / False                        |
-
-## 👤 Author
-
-**NFT** | Data Analytics Project | SWU
-*Modified from Bill Schmarzo's Machine Learning Canvas and Jasmine Vasandani's Data Science Workflow Canvas*
 
 ## Prompt for Generate Data
 1.รับบทเป็นนักวิเคราะห์ข้อมูล ช่วยเจนdata สำหรับการทำdata Analytics โดยทำการซ่อน insight และ Patterns ของข้อมูลไว้ด้วย ภายใน Dataset ต้องมีข้อมูลที่มี insights and patterns ต้องสอดคล้องกับ objective  โดย Data Quality rules ไม่ต้องมาทำขั้นตอน data cleaning อีกเลย
