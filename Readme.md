@@ -4,6 +4,9 @@
 > Designed by: NFT | Date: 17/01/2569
 
 ---
+# PROJECT CANVAS
+
+![Project Canvas](image/Project%20Canvas%20Data%20Analytics.png)
 
 ##  Background & Problem Statement
 
