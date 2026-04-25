@@ -87,13 +87,23 @@
 
 ---
 
-##  Key Metrics (KPIs)
+##  คำจำกัดความและคำอธิบายของตัวแปรสำคัญ
 
 ```
-Net ADR       = (Gross Room Revenue - Commission) / จำนวนห้องที่ขายได้
-Net RevPAR    = (Gross Room Revenue - Commission) / จำนวนห้องพักทั้งหมด
-COA %         = (Commission + Marketing Spend) / Gross Revenue
-Net Margin %  = Net Room Revenue / Gross Room Revenue × 100
+##Key Metrics  
+Net Revenue – รายได้สุทธิหลังหักค่าคอมมิชชั่น  
+Net Revenue per Booking – รายได้เฉลี่ยต่อการจอง  
+Net Margin (%) – ความสามารถในการทำกำไร  
+Commission Rate – ต้นทุนจากช่องทาง  
+Cancellation Rate – ความเสี่ยงด้านรายได้  
+Booking Volume – จำนวนการจอง    
+
+##Attributes  
+Channel id – ช่องทางการจอง  
+Channel Type – OTA / Non-OTA  
+Booking Status – Completed / Cancelled  
+Rate Code – ประเภทแพ็กเกจราคา  
+
 ```
 
 ---
