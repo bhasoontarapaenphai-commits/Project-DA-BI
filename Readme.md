@@ -156,7 +156,6 @@ from IPython.display import display, HTML
 
 # ============================================================
 # Data Dictionary — Hotel Channel Profitability Dataset
-# สไตล์ตาม Dark Theme เหมือนตัวอย่าง
 # ============================================================
 
 Data Dictionary   Hotel Channel Profitability
