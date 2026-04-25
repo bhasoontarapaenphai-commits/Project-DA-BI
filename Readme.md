@@ -90,7 +90,7 @@
 ##  คำจำกัดความและคำอธิบายของตัวแปรสำคัญ
 
 ```
-##Key Metrics  
+Key Metrics  
 Net Revenue – รายได้สุทธิหลังหักค่าคอมมิชชั่น  
 Net Revenue per Booking – รายได้เฉลี่ยต่อการจอง  
 Net Margin (%) – ความสามารถในการทำกำไร  
@@ -98,7 +98,7 @@ Commission Rate – ต้นทุนจากช่องทาง
 Cancellation Rate – ความเสี่ยงด้านรายได้  
 Booking Volume – จำนวนการจอง    
 
-##Attributes  
+Attributes  
 Channel id – ช่องทางการจอง  
 Channel Type – OTA / Non-OTA  
 Booking Status – Completed / Cancelled  
