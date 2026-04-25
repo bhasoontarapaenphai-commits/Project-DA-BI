@@ -196,5 +196,33 @@ dim_rate_codes — ตารางรหัสประเภทราคา (7 
 | rate_name         | ชื่อประเภทราคา               | Nominal   | Best Available Rate, Corporate Rate |
 | is_commissionable | คิด Commission หรือไม่       | Boolean   | True / False                        |
 
-## Prompt for Generate Data
-1.รับบทเป็นนักวิเคราะห์ข้อมูล ช่วยเจนdata สำหรับการทำdata Analytics โดยทำการซ่อน insight และ Patterns ของข้อมูลไว้ด้วย ภายใน Dataset ต้องมีข้อมูลที่มี insights and patterns ต้องสอดคล้องกับ objective  โดย Data Quality rules ไม่ต้องมาทำขั้นตอน data cleaning อีกเลย
+# Prompt for Generate Data
+รับบทเป็นนักวิเคราะห์ข้อมูล ช่วยเจนdata สำหรับการทำdata Analytics โดยทำการซ่อน insight และ Patterns ของข้อมูลไว้ด้วย ภายใน Dataset ต้องมีข้อมูลที่มี insights and patterns ต้องสอดคล้องกับ objective  โดย Data Quality rules ไม่ต้องมาทำขั้นตอน data cleaning อีกเลย
+
+# Exploratory Data Analysis
+### 1.ช่องทางที่มี Net ADR สูง → มี Volume Bookings ต่ำหรือสูง?
+<img width="929" height="1002" alt="image" src="https://github.com/user-attachments/assets/cfc460f0-b08a-4a37-8467-7a09ee0ec42d" />
+
+insight :
+
+
+Direct & Walk-in : ทำกำไรสูงสุดได้ Margin เต็ม 100% และสร้างรายได้ต่อคืน (Net ADR) สูงที่สุด ควรผลักดันให้เป็นช่องทางทำเงินหลัก
+
+OTA : Agoda ให้กำไรดีสุด ส่วน Expedia ต้นทุนแพงสุด แต่โรงแรมสามารถคุมกำไรได้ด้วยการขายเรทราคาแบบ Net Rate (RT_NET) ซึ่งจะไม่ถูกหักคอมมิชชัน
+
+Corporate : ลูกค้าองค์กรโดนหักคอมมิชชันน้อยมากถือเป็นฐานรายได้ที่มีคุณภาพ
+
+GDS : เป็นช่องทางที่ถูกหักคอมมิชชันหนักที่สุดและทำรายได้ต่อคืนต่ำที่สุด ควรทบทวนความคุ้มค่าในการใช้งานช่องทางนี้Direct & Walk-in : ทำกำไรสูงสุดได้ Margin เต็ม 100% และสร้างรายได้ต่อคืน (Net ADR) สูงที่สุด ควรผลักดันให้เป็นช่องทางทำเงินหลัก
+
+ข้อเสนอแนะ :
+
+ดัน Direct Booking นำค่าคอมมิชชันที่ประหยัดได้ มาทำโปรโมชันหรือสิทธิพิเศษดึงดูดให้ลูกค้าจองตรง
+
+แก้ทาง OTA ยกเลิกบ่อย เพิ่มการขายราคาแบบจ่ายแล้วไม่คืนเงินและลดโควตาห้องบน OTA ในช่วง High Season เพื่อเอามาขายเอง
+
+ปรับเรทราคาขาย เน้นขาย OTA ด้วยราคา Net Rate (RT_NET) ที่ไม่โดนหักคอมมิชชันและรักษาฐานลูกค้า
+
+ลดบทบาท GDS ทบทวนหรือลดโควตาห้องใน GDS เพราะต้นทุนแพงที่สุดแต่ทำรายได้ต่อคืนต่ำที่สุด แล้วนำห้องไปดันช่องทางอื่นแทน
+
+
+
