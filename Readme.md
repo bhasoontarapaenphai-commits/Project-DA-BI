@@ -154,9 +154,7 @@ Net Margin %  = Net Room Revenue / Gross Room Revenue × 100
 คำอธิบาย Attribute ทั้งหมดของ Dataset — Hotel Channel Profitability
 from IPython.display import display, HTML
 
-# ============================================================
 # Data Dictionary — Hotel Channel Profitability Dataset
-# ============================================================
 
 Data Dictionary   Hotel Channel Profitability
 fact_bookings — ตารางข้อมูลการจองหลัก (5,000 rows)
