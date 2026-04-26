@@ -34,7 +34,7 @@
 
 ##  Research Questions & Hypotheses
 
-### Hypotheses
+### Hypothesis
 1. **Direct channels** มี Net ADR และ Net Margin สูงกว่า OTA channels อย่างมีนัยสำคัญ
 2. ช่องทาง **OTA มีอัตราการยกเลิกการจองสูงกว่า** ส่งผลให้รายได้ที่เกิดขึ้นจริงลดลง
 3. **Channels ที่มี Commission สูง** จะมี Net Revenue ต่อ Booking ต่ำกว่า
@@ -210,6 +210,18 @@ dim_rate_codes — ตารางรหัสประเภทราคา (7 
 รับบทเป็นนักวิเคราะห์ข้อมูล ช่วยเจนdata สำหรับการทำdata Analytics โดยทำการซ่อน insight และ Patterns ของข้อมูลไว้ด้วย ภายใน Dataset ต้องมีข้อมูลที่มี insights and patterns ต้องสอดคล้องกับ objective  โดย Data Quality rules ไม่ต้องมาทำขั้นตอน data cleaning อีกเลย
 
 # Exploratory Data Analysis
+
+### Hypothesis 1. **Direct channels** มี Net ADR และ Net Margin สูงกว่า OTA channels อย่างมีนัยสำคัญ
+<img width="1409" height="749" alt="image" src="https://github.com/user-attachments/assets/9165df24-c92d-4f2c-b422-e853093fc8ec" />
+
+### Hypothesis 2. ช่องทาง **OTA มีอัตราการยกเลิกการจองสูงกว่า** ส่งผลให้รายได้ที่เกิดขึ้นจริงลดลง
+<img width="548" height="762" alt="image" src="https://github.com/user-attachments/assets/31f6ceca-5a65-44a5-9b60-356a89ba512a" />
+
+### Hypothesis 3. **Channels ที่มี Commission สูง** จะมี Net Revenue ต่อ Booking ต่ำกว่า
+
+
+
+
 ### 1.ช่องทางที่มี Net ADR สูง → มี Volume Bookings ต่ำหรือสูง?
 <img width="929" height="1002" alt="image" src="https://github.com/user-attachments/assets/cfc460f0-b08a-4a37-8467-7a09ee0ec42d" />
 
