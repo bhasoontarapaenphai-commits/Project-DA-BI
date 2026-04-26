@@ -218,8 +218,7 @@ dim_rate_codes — ตารางรหัสประเภทราคา (7 
 <img width="548" height="762" alt="image" src="https://github.com/user-attachments/assets/31f6ceca-5a65-44a5-9b60-356a89ba512a" />
 
 ### Hypothesis 3. **Channels ที่มี Commission สูง** จะมี Net Revenue ต่อ Booking ต่ำกว่า
-
-
+<img width="994" height="839" alt="H3" src="https://github.com/user-attachments/assets/2c74f1aa-ecdd-4427-9ad7-abe724501616" />
 
 
 ### 1.ช่องทางที่มี Net ADR สูง → มี Volume Bookings ต่ำหรือสูง?
