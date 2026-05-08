@@ -134,22 +134,28 @@ Rate Code – ประเภทแพ็กเกจราคา
 
 ---
 
-##  Repository Structure
+##  Data Structure
 
 ```
- azure-stay-channel-profitability/
-├──  README.md
-├──  data/
-│   └── hotel_channel_profitability_v2.xlsx    # Raw dataset
-├──  notebooks/
-│   ├── 01_data_exploration.ipynb              # EDA & Data Cleaning
-│   ├── 02_channel_net_margin_analysis.ipynb   # H1: Net ADR & Net Margin
-│   ├── 03_ota_cancellation_analysis.ipynb     # H2: Cancellation Rate
-│   └── 04_commission_impact_analysis.ipynb    # H3: Commission vs Net Revenue
-├──  dashboard/
-│   └── channel_profitability_dashboard.*      # Visualization output
-└──  docs/
-    └── Project_Canvas.pptx                    # Project Canvas
+ Project-DA-BI/
+├──  image/
+|    └── Dashboard1.png
+|    └── Dashboard2.png
+|    └── H1.png
+|    └── H2.png
+|    └── H3.png
+|    └── Project Canvas Data Analytics.pptx
+|    └── Q1.png
+|    └── Q2.png
+|    └── Q3.png
+|    └── Q4.png
+|    └── Q5.png
+|    └── Q6.png
+├──  Readme.md
+├──  Colab_H2,ipynb
+├──  Graph_Q_H.twb
+├──  Main_Colab.ipynb
+└──  Problem2_generate_data.xlsx
 ```
 
 ---
