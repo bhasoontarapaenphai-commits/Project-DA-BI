@@ -156,6 +156,7 @@ Rate Code – ประเภทแพ็กเกจราคา
 ├──  Graph_Q_H.twb
 ├──  Main_Colab.ipynb
 └──  Problem2_generate_data.xlsx
+├──  Data Analytics Project The Azure Stay.pdf
 ```
 
 ---
